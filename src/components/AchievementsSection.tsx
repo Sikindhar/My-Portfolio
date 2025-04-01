@@ -5,28 +5,28 @@ const AchievementsSection = () => {
   const achievements = [
     {
       title: "Smart India Hackathon 2024 Winner",
-      image: "/public/DSC07767.JPG",
+      image: "/DSC07767.JPG",
       date: "2024",
       description: "First place in Smart India Hackathon 2024, developed a web framework for android security by NCIIPC out of 60,000+ participants and won a cash prize of INR 1,00,000.",
       icon: <Trophy size={24} className="text-yellow-500" />
     },
     {
       title: "9Hacks Hackathon Winner",
-      image: "public/DOC-20230225-WA0013..jpg", 
+      image: "/DOC-20230225-WA0013..jpg", 
       date: "2023",
       description: " Winner at 9Hacks, a University Level Hackathon for ideating and soft prototyping university-related problems.",
       icon: <Medal size={24} className="text-yellow-500" />
     },
     {
       title: "Pitch and Win",
-      image: "/public/image1.png", 
+      image: "/image1.png", 
       date: "2022",
       description: "Bagged 1st place in Pitch and Win competition and won INR 10,000 conducted by E-Cell, SRM University. Pitched about an innovative AgriTech e-commerce Platform.",
       icon: <Trophy size={24} className="text-yellow-500" />
     },
     {
       title: "State Representative at National Youth Parliament Festival 2022",
-      image: "public/IMG_0015-1.JPG", 
+      image: "/IMG_0015-1.JPG", 
       date: "2022",
       description: " Represented Andhra Pradesh in National Youth Parliament Festival 2022, Parliament Central Hall, New Delhi. Spoke about Patriotism and Nation Building. Appreciated by Union Ministers and Members of Parliament.",
       icon: <Award size={24} className="text-yellow-500" />
