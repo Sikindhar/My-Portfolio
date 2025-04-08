@@ -22,7 +22,7 @@ const SkillsSection = () => {
     {
       title: "Research",
       icon: <Microscope size={32} className="text-highlight" />,
-      skills: ["Cryptography", "Computaional Complexity" , "Cloud Scheduling", "Bio-inspired Algorithms", "Artficial Intelligence"]
+      skills: ["Cryptography", "Computational Complexity" , "Cloud Scheduling Algorithms", "Bio-inspired Algorithms", "Artficial Intelligence"]
     },
     {
       title: "Data Science",  
