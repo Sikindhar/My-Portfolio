@@ -15,7 +15,7 @@ const Navbar = () => {
     { id: 'experience', label: 'Experience' },
     { id: 'achievements', label: 'Achievements' },
     { id: 'projects', label: 'Projects' },
-    { id: 'resume', label: 'Resume', link: 'https://drive.google.com/file/d/1ki3xSLa8QSskE1fPZO7tTMuFaUnGeuxD/view?usp=sharing' },
+    { id: 'resume', label: 'Resume', link: 'https://drive.google.com/file/d/13p0XWDhtq1lyxyxvbEehCw1WseMO0oWI/view?usp=sharing' },
     { id: 'contact', label: "Let's Connect" } 
   ];
 
