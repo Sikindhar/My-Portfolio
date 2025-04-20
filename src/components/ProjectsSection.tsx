@@ -18,16 +18,16 @@ const ProjectsSection = () => {
       liveLink: "https://nutriconnect-version1-4a0b81.netlify.app/"
     },
     {
-      title: "Customer FeedBack Analyzer",
-      description: "Developed an AI powered tool to collect, categorize, and understand user feedback for product insights and strategy. Currently Researching and Developing cost-effective GenAI solution using GPT-2 fine-tuned model for automatic feedback and review responses, enhancing customer interaction and service tailored for MSMEs and businesses.",
+      title: "MSME Customer Engagement LLM API service",
+      description: " Currently Researching and Developing cost-effective GenAI solution using GPT-2 fine-tuned model for automatic feedback and review responses, enhancing customer interaction and service tailored for MSMEs and businesses.",
       image: "/image3.png",
       tags: ["React", "Shad-Cn", "Python", "MongoDB", "Rechart", "GenAi", "Sentiment Analysis"],
-      githubLink: "https://github.com/Sikindhar/Customer-Feedback-Analyzer-Version1",
-      liveLink: "https://github.com/Sikindhar/Customer-Feedback-Analyzer-Version1"
+      githubLink: "https://github.com/Sikindhar/MSME_LLM_Service",
+      liveLink: "https://github.com/Sikindhar/MSME_LLM_Service"
     },
     {
       title: "AES Simulator",
-      description: "A command line Software simulation of The Advanced Encryption Standard (AES). A widely used symmetric-key encryption algorithm designed to provide high-level security for electronic data. It was selected by the National Institute of Standards and Technology (NIST) in 2001. This project is a software Simulation of AES for images.",
+      description: "A command line Software simulation of The Advanced Encryption Standard (AES). A widely used symmetric-key encryption algorithm designed to provide high-level security for electronic data. It was selected by the National Institute of Standards and Technology (NIST) in 2001. This project is a software Simulation of AES for images. Also Developed a C++ implementation of AES-256 encryption/decryption with strong theoretical understanding of crypto graphic principles and computational complexity.",
       image: "/image5.png",
       tags: ["Python", "PyCrypto", "Image Encryption"],
       githubLink: "https://github.com/Sikindhar/AES-Simulator",
