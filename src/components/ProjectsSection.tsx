@@ -19,7 +19,7 @@ const ProjectsSection = () => {
     },
     {
       title: "MSME Customer Engagement LLM API service",
-      description: " Currently Researching and Developing cost-effective GenAI solution using GPT-2 fine-tuned model for automatic feedback and review responses, enhancing customer interaction and service tailored for MSMEs and businesses.",
+      description: "A cost-effective Multi-Modal AI solution for MSMEs that leverages fine-tuned T5-base and Distil-BERT models to automate customer review insights and engagement based on Yelp and synthetic genrated data. Models can be made more efficient on training with more data",
       image: "/image3.png",
       tags: ["React", "Shad-Cn", "Python", "MongoDB", "Rechart", "GenAi", "Sentiment Analysis"],
       githubLink: "https://github.com/Sikindhar/MSME_LLM_Service",
