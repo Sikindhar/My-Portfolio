@@ -23,7 +23,7 @@ const AboutSection = () => {
           </h3>
           
           <p className="text-gray-700 mb-6">
-            I am Computer Science Engineering student with a strong foundation in Problem-solving , Data structures , Algortihms and Software development. I enjoy researching new solutions to problems and like building iterative soltions to them
+            I am Computer Science Engineering student with a strong foundation in Problem-solving , Data structures , Algorithms and Software development. I enjoy researching new solutions to problems and like building iterative soltions to them.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
