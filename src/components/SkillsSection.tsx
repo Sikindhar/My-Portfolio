@@ -12,17 +12,17 @@ const SkillsSection = () => {
     {
       title: "Web Development",
       icon: <Globe size={32} className="text-highlight" />,
-      skills: ["HTML/CSS", "Javascript", "React", "Node", "Express", "Tailwind CSS", "Bootstrap",]
+      skills: ["HTML/CSS", "Javascript", "Typescript", "React", "Node", "Express", "Tailwind CSS", "Bootstrap","ShadCN","FastAPI","Django"]
     },
     {
       title: "Databases",
       icon: <Database size={32} className="text-highlight" />,
-      skills: ["MySQL", "MongoDB", "PostgreSQL", "Firebase"]
+      skills: ["PostgreSQL", "MongoDB", "MySQL", "Firebase"]
     },
     {
       title: "Research",
       icon: <Microscope size={32} className="text-highlight" />,
-      skills: ["Cryptography", "Computational Complexity" , "Cloud Scheduling Algorithms", "Bio-inspired Algorithms", "Artficial Intelligence"]
+      skills: ["Theoretical Computer Science","Cryptography", "Computational Complexity" , "Cloud Scheduling Algorithms", "Bio-inspired Algorithms", "Artficial Intelligence"]
     },
     {
       title: "Data Science",  
