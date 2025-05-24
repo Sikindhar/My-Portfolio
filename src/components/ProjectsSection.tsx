@@ -13,7 +13,7 @@ const ProjectsSection = () => {
       title: "NutriConnect",
       description: "A comprehensive web application connecting users with nutritionists and doctors. Built with React, Node.js, and MongoDB. Enables personalized nutrition guidance and medical consultations, improving accessibility and healthcare efficiency",
       image: "/image2.png",
-      tags: ["React", "Shad-Cn", "Node.js", "MongoDB"],
+      tags: ["React", "Shad-Cn", "Node.js", "MongoDB","HealthTech"],
       githubLink: "https://github.com/Sikindhar/NutriConnect-Version1",
       liveLink: "https://nutriconnect-version1-4a0b81.netlify.app/"
     },
@@ -26,10 +26,35 @@ const ProjectsSection = () => {
       liveLink: "https://github.com/Sikindhar/MSME_LLM_Service"
     },
     {
+      title: "SRS Email Automation System",
+      description: "SRS-Email-Automation is a tool that automatically monitors email inboxes for new requirements, uses AI to analyze the content, and generates Software Requirement Specification (SRS) documents. It helps streamline the requirements gathering process by converting email communications into structured documentation.",
+      image: "/image6.png",
+      tags: ["Python", "Gmail-API", "GenAI","Cohere","Automation"],
+      githubLink: "https://github.com/Sikindhar/SRS-Email-Automation",
+      liveLink: "https://github.com/Sikindhar/SRS-Email-Automation"
+    },
+    {
+      title: "Slack Summary Assitant",
+      description: "Slack Summary Assistant is a smart task management tool that helps users organize their todos and automatically generates AI-powered summaries of their incomplete tasks, which are then seamlessly shared with their team through Slack, making task tracking and team communication effortless and efficient.",
+      image: "/image7.png",
+      tags: ["Node.js", "React","Tailwind","ShadCn","RadixUI","Firebase", "Slack-API", "GenAI","Cohere","AI Assitant"],
+      githubLink: "https://github.com/Sikindhar/Slack-Summary-Assistant",
+      liveLink: "https://slack-summary-assistant.netlify.app/"
+    },
+      {
+      title: "Integrated Recommendation System",
+      description: "A collaborative filtering recommendation system based on users history and similarity with Slack and WhatsApp interfaces.",
+      image: "/image8.png",
+      tags: ["Python", "FastAPI","MongoDB", "Slack", "Whatsapp","Webhook","AmazonElectronicsDataset","Ml-Libraries","Cosine Similarity","Recommendation System"],
+      githubLink: "https://github.com/Sikindhar/SRS-Email-Automation",
+      liveLink: "https://github.com/Sikindhar/SRS-Email-Automation"
+    },
+
+    {
       title: "AES Simulator",
       description: "A command line Software simulation of The Advanced Encryption Standard (AES). A widely used symmetric-key encryption algorithm designed to provide high-level security for electronic data. It was selected by the National Institute of Standards and Technology (NIST) in 2001. This project is a software Simulation of AES for images. Also Developed a C++ implementation of AES-256 encryption/decryption with strong theoretical understanding of crypto graphic principles and computational complexity.",
       image: "/image5.png",
-      tags: ["Python", "PyCrypto", "Image Encryption"],
+      tags: ["Python", "PyCrypto", "Image Encryption","Security"],
       githubLink: "https://github.com/Sikindhar/AES-Simulator",
       liveLink: "https://github.com/Sikindhar/AES-Simulator"
     },
@@ -37,7 +62,7 @@ const ProjectsSection = () => {
       title: "CVE Data API",
       description: "Developed an API that displays and provides about the CVE's in a systematic fashion with necessary filters as applied with periodic synchronization from the NVD Database.",
       image: "/image4.png",
-      tags: ["HTML", "CSS", "Javascript", "Node.js", "MongoDB", "Node-Cron"],
+      tags: ["HTML", "CSS", "Javascript", "Node.js", "MongoDB", "Node-Cron", "REST API"],
       githubLink: "https://github.com/Sikindhar/SecureInAssesment",
       liveLink: "https://github.com/Sikindhar/SecureInAssesment"
     }
