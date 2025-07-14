@@ -3,6 +3,17 @@ import { Briefcase, Calendar, MapPin } from 'lucide-react';
 
 const ExperienceSection = () => {
   const experiences = [
+
+    {
+      role: "SDE Intern",
+      company: "DocComponent Team",
+      period: "July 2025 - Present",
+      location: "Progress Software, Embassy Golf Links Business Park, Bengaluru",
+      description:
+        "Currently working as a part of the Doc Component team. ",
+      skills: ["C#", "ASP.NET Core", "React", "AntD"],
+    },
+    
     {
       role: "Research Intern",
       company: "Task scheduling algorithms in cloud environment",
