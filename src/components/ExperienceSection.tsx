@@ -6,11 +6,11 @@ const ExperienceSection = () => {
 
     {
       role: "SDE Intern",
-      company: "DocComponent Team",
+      company: "ShareFile Product",
       period: "July 2025 - Present",
       location: "Progress Software, Embassy Golf Links Business Park, Bengaluru",
       description:
-        "Currently working as a part of the Doc Component team. ",
+        "Currently working in ShareFile business unit as a part of the DocComponent team",
       skills: ["C#", "ASP.NET Core", "React", "AntD"],
     },
     
