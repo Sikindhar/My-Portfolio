@@ -7,7 +7,7 @@ const SkillsSection = () => {
     {
       title: "Programming Languages",
       icon: <Code size={32} className="text-highlight" />,
-      skills: ["C/C++", "JavaScript", "TypeScript" , "Java", "Python"]
+      skills: ["C/C++", "JavaScript", "TypeScript" , "Java", "Python", "C#"]
     },
     {
       title: "Web Development",
