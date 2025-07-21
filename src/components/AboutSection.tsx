@@ -1,7 +1,29 @@
 
+import React, { useEffect, useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const AboutSection = () => {
+  const [visitCount, setVisitCount] = useState<number | null>(null);
+  const [showCount, setShowCount] = useState(false);
+
+  useEffect(() => {
+    // Replace 'your-namespace' and 'your-key' with your own unique values
+    fetch('https://api.countapi.xyz/hit/sikindhar-portfolio/visits')
+      .then(res => res.json())
+      .then(data => setVisitCount(data.value));
+  }, []);
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      // Ctrl+Shift+V to toggle visibility
+      if (e.ctrlKey && e.shiftKey && e.key === 'V') {
+        setShowCount(v => !v);
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, []);
+
   return (
     <section id="about" className="section-container bg-gray-50">
       <h2 className="section-title">About Me</h2>
@@ -47,6 +69,24 @@ const AboutSection = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div
+        style={{
+          position: 'fixed',
+          bottom: 10,
+          right: 10,
+          color: 'black',
+          background: 'rgba(255,255,255,0.7)',
+          padding: '4px 8px',
+          borderRadius: 4,
+          fontSize: 12,
+          zIndex: 9999,
+          opacity: showCount ? 1 : 0, // Hidden by default
+          pointerEvents: 'none', // Prevent interaction
+          transition: 'opacity 0.2s',
+        }}
+      >
+        {visitCount !== null ? `Visits: ${visitCount}` : ''}
       </div>
     </section>
   );
