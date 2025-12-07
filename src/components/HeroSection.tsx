@@ -19,7 +19,7 @@ const HeroSection = () => {
         </h1>
         <div className="animate-fade-in delay-300 max-w-2xl mx-auto mb-10">
           <p className="text-lg text-gray-300">
-            Passionate about technology and innovation. I build creative solutions with research and code.
+            Passionate about research, technology and innovation. I build creative solutions with research and code.
           </p>
         </div>
 

@@ -21,7 +21,7 @@ const ContactSection = () => {
         <div>
           <h3 className="text-2xl font-bold mb-4 text-navy">Get in Touch</h3>
           <p className="text-gray-700 mb-8">
-            I'm always open to new opportunities, collaborations, or just a friendly chat. If the chat matter to you , It matters to me too.
+            I'm always open to new opportunities, collaborations, or just a friendly chat. If the chat matters to you , It matters to me too.
           </p>
           
           <div className="mb-8">

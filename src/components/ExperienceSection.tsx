@@ -5,15 +5,23 @@ const ExperienceSection = () => {
   const experiences = [
 
     {
-      role: "SDE Intern",
+      role: "Software Engineer ",
       company: "ShareFile Product",
-      period: "July 2025 - Present",
+      period: "December 2025 - Present",
       location: "Progress Software, Embassy Golf Links Business Park, Bengaluru",
       description:
-        "Currently working in ShareFile business unit as a part of the DocComponent team",
+        "Currently working in DocComponent team which is core team of storage and sharefile.",
       skills: ["C#", "ASP.NET Core", "React", "AntD"],
     },
-    
+    {
+      role: "Software Engineer Intern",
+      company: "ShareFile Product",
+      period: "July 2025 - December 2025",
+      location: "Progress Software, Embassy Golf Links Business Park, Bengaluru",
+      description:
+       "Worked on the File Browser plugin and Storage plugin pilet as part of the DocComponent team. Developed key UX enhancements in Storage plugin pilet micro-frontend including Thumbnails, Unified View caching, Renaming, Delete flows and others using React, Ant Design and Piral framework. Unified the GetResources API logic into a existing stable version using C#, ASP.NET Core, and microservices. Enhanced storage operations determinism through optimized DB read/write patterns. Improved overall reliability through feature-flag cleanup, targeted test coverage, and adherence to strong engineering and SOLID principles. Contributed to an AI-based Incident Analysis POC project. An AI powered system that automates the initial analysis of production outages and incidents at Sharefile. Contributed to the LaunchDarkly AI agent connector and presented the work at ShareFile Engage (November) alongside senior engineering leadership.",
+      skills: ["C#", "ASP.NET Core", "React", "AntD","Research", "POC crafting"],
+    },
     {
       role: "Research Intern",
       company: "Task scheduling algorithms in cloud environment",
@@ -44,7 +52,7 @@ const ExperienceSection = () => {
 
             <div className="md:w-40 flex-shrink-0 text-sm text-gray-500 md:mr-12 mb-4 md:mb-0">
               <div className="flex md:justify-end items-center">
-                <Calendar size={14} className="md:order-last md:ml-1 mr-1 md:mr-0" />
+                <Calendar size={16} className="md:order-last md:ml-1 mr-1 md:mr-0" />
                 <span className="block text-center md:text-right">{exp.period}</span>
               </div>
             </div>

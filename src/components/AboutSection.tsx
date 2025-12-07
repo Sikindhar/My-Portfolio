@@ -1,28 +1,6 @@
-
-import React, { useEffect, useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 
 const AboutSection = () => {
-  const [visitCount, setVisitCount] = useState<number | null>(null);
-  const [showCount, setShowCount] = useState(false);
-
-  useEffect(() => {
-    // Replace 'your-namespace' and 'your-key' with your own unique values
-    fetch('https://api.countapi.xyz/hit/sikindhar-portfolio/visits')
-      .then(res => res.json())
-      .then(data => setVisitCount(data.value));
-  }, []);
-
-  useEffect(() => {
-    const handler = (e: KeyboardEvent) => {
-      // Ctrl+Shift+V to toggle visibility
-      if (e.ctrlKey && e.shiftKey && e.key === 'V') {
-        setShowCount(v => !v);
-      }
-    };
-    window.addEventListener('keydown', handler);
-    return () => window.removeEventListener('keydown', handler);
-  }, []);
 
   return (
     <section id="about" className="section-container bg-gray-50">
@@ -41,11 +19,11 @@ const AboutSection = () => {
         
         <div>
           <h3 className="text-2xl font-bold mb-6 text-navy">
-            SDE Intern <span className="text-highlight">@Progress</span>
+            Software Engineer <span className="text-highlight">@Progress ShareFile</span>
           </h3>
           
           <p className="text-gray-700 mb-6">
-            I am Software development Engineer Intern at Progress on the ShareFile Product at Bengaluru. I am currently in the DocComponent team which is a major feature in the ShareFile application. </p>
+            I am Software Engineer at Progress ShareFile. I am currently in the DocComponent team which is a core team of ShareFile. </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <Card className="card-hover-effect">
@@ -65,7 +43,7 @@ const AboutSection = () => {
           
           <div className="space-y-4">
             <p className="text-gray-700">
-              I got my real enthusiasm in Computer science after the course <strong>Theory of Computation and Turing Machines. </strong> I had a fantastic researching experience on the concepts like <strong>Cryptography and Information security, Theory of Computation, Computational Complexity , Algorithms, Soft Computing and Artificial Intelligence </strong>. My journey in development accelerated when I actually had a clear distinction between Research and Engineering . Since then, I've been continuously learning and exploring new technologies to expand my skills in development.
+              I got my real enthusiasm in Computer science after the course <strong>Theory of Computation and Turing Machines. </strong> I had a fantastic researching experience on the concepts like <strong>Cryptography and Information security, Theory of Computation, Computational Complexity , Algorithms, Soft Computing and Artificial Intelligence </strong>. My journey in development accelerated when I actually had a clear distinction between Research and Engineering . Since then, I've been continuously learning and exploring new technologies to expand my skills in Software Engineering.
             </p>
           </div>
         </div>
@@ -81,12 +59,10 @@ const AboutSection = () => {
           borderRadius: 4,
           fontSize: 12,
           zIndex: 9999,
-          opacity: showCount ? 1 : 0, // Hidden by default
           pointerEvents: 'none', // Prevent interaction
           transition: 'opacity 0.2s',
         }}
       >
-        {visitCount !== null ? `Visits: ${visitCount}` : ''}
       </div>
     </section>
   );
